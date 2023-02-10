@@ -1,0 +1,84 @@
+<div class="form-container">
+    <h1 style="text-align: left;padding-left: 50px;margin-bottom: 33px">Contact Form</h1>
+
+    <form #userForm="ngForm">
+        <div class="form-label">
+            <div class="label-fields-container">
+
+                <div class="label-name">
+                    <h5>Your Name</h5>
+                </div>
+
+                <div class="label-email">
+                    <h5>Your Email</h5>
+                </div>
+
+                <div class="label-phone">
+                    <h5>Phone*</h5>
+                </div>
+
+                <div class="label-Message-option">
+                    <h5>Message Subject*</h5>
+                </div>
+
+                <div class="label-message">
+                    <h5>Message*</h5>
+                </div>
+
+            </div>
+            <div class="answer-fields-container">
+
+                <div class="name-field">
+
+                    <div class="first-name">
+                        <input class="first-name-box" type="text" placeholder="First Name" name="firstName" [(ngModel)]="userModel.firstName">
+                    </div>
+
+                    <div class="last-name">
+                        <input class="last-name-box" type="text" placeholder="Last Name" name="lastName" [(ngModel)]="userModel.lastName">
+                    </div>
+
+                </div>
+
+                <div class="email-field">
+                    <input class="email-text-area" type="text" placeholder="abc@email.com" name="eMail" [(ngModel)]="userModel.eMail">
+                </div>
+
+                <div class="phone-number-ans">
+
+                    <div class="first">
+                        <input class="first-pno-box" type="text" placeholder="####" name="pNoOne" [(ngModel)]="userModel.pNoOne">
+                    </div>
+
+                    <div class="second">
+                        <input class="second-pno-box" type="text" placeholder="###" name="pNoTwo" [(ngModel)]="userModel.pNoTwo">
+                    </div>
+
+                    <div class="third">
+                        <input class="third-pno-box" type="text" placeholder="###" name="pNoThree" [(ngModel)]="userModel.pNoThree">
+                    </div>
+
+                </div>
+
+                <div class="sub-selector">
+                    <select class="custom-select" name="topic" [(ngModel)]="userModel.topic">
+                        <option *ngFor="let subject of subjects">{{subject}}</option>
+                    </select>
+                </div>
+
+                <div>
+                    <input class="message-ans" type="text" placeholder="Message" name="messageBox" [(ngModel)]="userModel.messageBox">
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+<hr/>
+        <div class="submit-button-div">
+            <button class="submit-btn">Submit Form</button>
+        </div>
+    </form>
+</div>

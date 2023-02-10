@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding:0;
+    margin-left: 0px;
+}
+
+
+
+.form-container{
+    justify-content: center;
+
+}
+
+.label-fields-container{
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.form-label{
+    padding-top: 20px;
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+
+.label-name{
+    margin-bottom: 15px;
+}
+
+.label-email{
+    margin-bottom: 15px;
+}
+
+.label-phone{
+    margin-bottom: 15px;
+
+}
+
+.label-Message-option{
+    margin-bottom: 15px;
+
+}
+
+.label-message{
+    margin-bottom: 15px;
+
+}
+
+.name-field{
+    display: flex;
+    margin-bottom: 3px;
+}
+
+.first-name-box{
+    height: 20px;
+    margin-right: 10px;
+    width:190px;
+    
+}
+
+.email-text-area{
+    height: 20px;
+    width:400px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+}
+
+
+
+.last-name-box{
+    height: 20px;
+    width:195px;
+}
+
+.phone-number-ans{
+    display:flex;
+    margin-bottom: 3px;
+    width: 400px;
+    margin-bottom: 6px;
+}
+
+.first-pno-box{
+    height: 20px;
+    margin-right: 3px;
+    width: 146px;
+
+}
+
+.second-pno-box{
+    height: 20px;
+    margin-right: 3px;
+    width: 120px;
+
+}
+
+.third-pno-box{
+    height: 20px;
+    margin-right: 3px;
+    width: 120px;
+
+}
+
+.sub-selector{
+    margin-bottom: 10px;
+    height: 20px;
+    margin-bottom: 3px;
+}
+
+.message-ans{
+    height: 210px;
+    
+    width: 400px;
+    margin-bottom: 3px;
+
+}
+
+
+.answer-fields-container{
+    margin-top: 3px;
+}
+
+.submit-button-div{
+    margin-top: 25px;
+    margin-left: 50px;
+
+}
+
+.submit-btn{
+    background-color: rgb(65, 192, 255);
+    border-color: white;
+    color: white;
+    height: 30px;
+    width: 125px;
+    border-radius: 12px;
+    text-align: center;
+}

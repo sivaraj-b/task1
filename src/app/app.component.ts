@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { User } from './user';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'task1';
+  showMe : boolean =true;
+  
+  toggleTag(){
+    this.showMe=!this.showMe;
+    console.log(this.showMe);
+    return this.showMe;
+  }
 }
